@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import UserComponent from './components/user';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </p>
       <p>Selvin Tomás Ch.</p>
       </header>
+      <UserComponent></UserComponent>
     </div>
   );
 }
