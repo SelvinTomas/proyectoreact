@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import UserComponent from './components/user';
+import Profile from './components/user/profile';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <p>Selvin Tomás Ch.</p>
       </header>
       <UserComponent></UserComponent>
+      <Profile></Profile>
     </div>
   );
 }
